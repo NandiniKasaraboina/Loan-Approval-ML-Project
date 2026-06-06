@@ -30,7 +30,7 @@ function LoanForm({ setPrediction }) {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/predict",
+        "https://loan-approval-ml-project-qrlj.onrender.com/predict",
         {
           age: Number(formData.age),
           income: Number(formData.income),
