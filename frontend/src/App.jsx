@@ -19,21 +19,12 @@ function App() {
 
           <div className="text-center">
 
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-400 text-sm mb-6">
-              AI Powered Credit Risk Assessment
-            </div>
-
             <h1 className="text-5xl md:text-6xl font-black text-white">
               Loan Approval
               <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
                 Prediction System
               </span>
             </h1>
-
-            <p className="text-slate-400 max-w-3xl mx-auto mt-6 text-lg">
-              Intelligent loan eligibility prediction using Machine Learning,
-              FastAPI, React and Tailwind CSS.
-            </p>
 
           </div>
 
